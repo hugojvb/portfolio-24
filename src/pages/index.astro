@@ -1,33 +1,31 @@
 ---
-// Component Imports
-import Counter from '../components/Counter';
+import Hero from '../components/Hero';
 
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+    <meta name="description" content="Hugo Batista is a passionate Frontend Developer who is after a challenge to further develop his skills and attain new achievements as far as the impact on users is concerned.">
+    <meta name="keywords" content="Hugo Batista, Hugo, Batista, Frontend, Developer, Frontend Developer, Web Developer, Web, Developer, HTML, CSS, JavaScript, React, Vue, Angular, Svelte, Astro, Hugo Batista Frontend Developer, Hugo Batista Web Developer, Hugo Batista Frontend, Hugo Batista Web, Hugo Batista Developer, Hugo Batista HTML, Hugo Batista CSS, Hugo Batista JavaScript, Hugo Batista React, Hugo Batista Vue, Hugo Batista Angular, Hugo Batista Svelte, Hugo Batista Astro, Hugo Batista Hugo Batista Frontend Developer, Hugo Batista Hugo Batista Web Developer, Hugo Batista Hugo Batista Frontend, Hugo Batista Hugo Batista Web, Hugo Batista Hugo Batista Developer, Hugo Batista Hugo Batista HTML, Hugo Batista Hugo Batista CSS, Hugo Batista Hugo Batista JavaScript, Hugo Batista Hugo Batista React, Hugo Batista Hugo Batista Vue, Hugo Batista Hugo Batista Angular, Hugo Batista Hugo Batista Svelte, Hugo Batista Hugo Batista Astro">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<style>
-			html,
-			body {
-				font-family: system-ui;
-				margin: 0;
-			}
-			body {
-				padding: 2rem;
-			}
-		</style>
+    <link rel="stylesheet" href="/src/styles/global.scss">
 	</head>
 	<body>
+    <!-- <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About me</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header> -->
 		<main>
-			<Counter client:visible>
-				<h1>Hello, Solid!</h1>
-			</Counter>
+			<Hero client:visible>
 		</main>
 	</body>
 </html>

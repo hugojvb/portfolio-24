@@ -1,0 +1,70 @@
+@import "@portfolio/styles/variables.scss";
+
+.hero {
+  background: linear-gradient($primary-color, $secondary-color);
+  min-height: 100vh;
+
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+
+    &__text {
+      & > * {
+        margin: 0;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      
+      h1 {
+        font-size: 4rem;
+        font-weight: 500;
+
+        span {
+          color: $accent-color;
+          font-weight: 800;
+        }
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        font-weight: 300;
+      }
+
+      &--button {
+        margin-top: 20px;
+        background: $accent-color;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        cursor: pointer;
+
+        & > a,
+        a:visited {
+          text-decoration: none;
+          color: $font-color !important;
+        }
+      }
+    }
+
+    &__image {
+      max-width: 50%;
+      height: 50%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 20px;
+      }
+    }
+  }
+}

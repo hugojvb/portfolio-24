@@ -1,5 +1,5 @@
 {
-  "name": "shining-star",
+  "name": "portfolio-24",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -13,5 +13,8 @@
     "@astrojs/solid-js": "^2.1.1",
     "astro": "^2.4.1",
     "solid-js": "^1.7.4"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
