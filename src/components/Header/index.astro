@@ -1,12 +1,33 @@
 ---
 import './styles.scss';
+import { socials, Social } from '@portfolio/data/socials.ts';
 ---
 
 <nav>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#about">About me</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href='#'>Home</a></li>
+    <li><a href='#about'>About me</a></li>
+    <li><a href='#experience'>Experience</a></li>
+    <li><a href='#projects'>Projects</a></li>
+    <li><a href='#certificates'>Certificates</a></li>
+    <li><a href='#contact'>Contact</a></li>
+  </ul>
+  <ul>
+    {
+      socials.map((social: Social) => {
+        return (
+          <li>
+            <a
+              href={social.url}
+              target='_blank'
+              rel='noopener noreferer'
+              title={social.name}
+            >
+              <img src={social.icon} alt={social.name} />
+            </a>
+          </li>
+        );
+      })
+    }
   </ul>
 </nav>

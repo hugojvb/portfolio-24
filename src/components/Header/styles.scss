@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+
+  ul {
+    height: 75px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    li {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0px  25px;
+      cursor: pointer;
+
+      &:hover {
+        a {
+          color: $accent-color;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: $font-color;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+        white-space: nowrap;
+      }
+    }
+  }
+}
