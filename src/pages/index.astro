@@ -1,6 +1,6 @@
 ---
-import Hero from '../components/Hero';
-
+import Hero from '@portfolio/components/Hero';
+import Header from '@portfolio/components/Header/index.astro';
 ---
 
 <html lang="en">
@@ -14,16 +14,9 @@ import Hero from '../components/Hero';
     <link rel="stylesheet" href="/src/styles/global.scss">
 	</head>
 	<body>
-    <!-- <header>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About me</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header> -->
+    <header>
+      <Header client:load />
+    </header>
 		<main>
 			<Hero client:visible>
 		</main>

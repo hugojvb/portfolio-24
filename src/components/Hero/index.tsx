@@ -2,7 +2,7 @@ import "./styles.scss";
 
 export default function Hero() {
   return (
-    <div class="hero">
+    <div class="hero" id="home">
       <div class="hero-container">
         <div class="hero-container__text">
           <h2>Hello there,</h2>
@@ -13,7 +13,7 @@ export default function Hero() {
           <h3>Front-end Developer</h3>
           <button class="hero-container__text--button">
             <a href="#contact">
-              &#x260E; Contact me
+              &#x260E; Let's talk
             </a>
           </button>
         </div>

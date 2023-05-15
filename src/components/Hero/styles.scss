@@ -1,9 +1,6 @@
-@import "@portfolio/styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .hero {
-  background: linear-gradient($primary-color, $secondary-color);
-  min-height: 100vh;
-
   &-container {
     display: flex;
     justify-content: space-around;
@@ -27,7 +24,6 @@
         font-weight: 500;
 
         span {
-          color: $accent-color;
           font-weight: 800;
         }
       }
