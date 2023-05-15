@@ -2,7 +2,7 @@ import "./styles.scss";
 
 export default function Hero() {
   return (
-    <div class="hero" id="home">
+    <section id="home">
       <div class="hero-container">
         <div class="hero-container__text">
           <h2>Hello there,</h2>
@@ -26,6 +26,6 @@ export default function Hero() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

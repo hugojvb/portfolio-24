@@ -43,7 +43,6 @@ header {
           }
 
           img {
-            transition: all 0.3s ease-in-out;
             transform: translateY(-2px);
           }
         }
@@ -53,7 +52,6 @@ header {
           color: $font-color;
           font-size: 1rem;
           font-weight: 500;
-          transition: all 0.3s ease-in-out;
           white-space: nowrap;
         }
       }

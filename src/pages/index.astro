@@ -1,6 +1,7 @@
 ---
 import Hero from '@portfolio/components/Hero';
 import Header from '@portfolio/components/Header/index.astro';
+import AboutMe from '@portfolio/components/AboutMe';
 ---
 
 <html lang="en">
@@ -17,6 +18,7 @@ import Header from '@portfolio/components/Header/index.astro';
     <Header />
 		<main>
 			<Hero client:visible>
+      <AboutMe client:idle />
 		</main>
 	</body>
 </html>

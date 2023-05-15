@@ -5,6 +5,7 @@
 
 - The sections will be:
   1. Starting photo with phrase,
+
   2. about me tech logos in each bullet point of skills, don't forget the icons and time experience,
   3. experience (timeline with a vertical line marked with nodes, description with bullet points),
   4. some projects (4 cards with translate on hover),
