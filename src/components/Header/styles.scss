@@ -1,42 +1,61 @@
 @import '../../styles/variables.scss';
 
-nav {
-  position: sticky;
-  top: 0;
+header {
   background-color: $primary-color;
   display: flex;
-  justify-content: space-between;
-  gap: 50px;
+  justify-content: center;
 
-  ul {
-    height: 75px;
-    list-style: none;
+  nav {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+    gap: 200px;
+    width: 1200px;
 
-    li {
-      height: 100%;
+    ul {
+      height: 75px;
+      list-style: none;
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      padding: 0px  25px;
-      cursor: pointer;
+      padding: 0;
+      margin: 0;
 
-      &:hover {
-        a {
-          color: $accent-color;
+      li {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0px 25px;
+        cursor: pointer;
+
+        &:first-child {
+          padding-left: 0;
         }
-      }
 
-      a {
-        text-decoration: none;
-        color: $font-color;
-        font-size: 1rem;
-        font-weight: 500;
-        transition: all 0.3s ease-in-out;
-        white-space: nowrap;
+        &:last-child {
+          padding-right: 0;
+        }
+
+        &:hover {
+          a {
+            color: $accent-color;
+          }
+
+          img {
+            transition: all 0.3s ease-in-out;
+            transform: translateY(-2px);
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: $font-color;
+          font-size: 1rem;
+          font-weight: 500;
+          transition: all 0.3s ease-in-out;
+          white-space: nowrap;
+        }
       }
     }
   }

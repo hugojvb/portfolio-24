@@ -1,13 +1,17 @@
 @import "../../styles/variables.scss";
 
 .hero {
+  background: linear-gradient($primary-color, $secondary-color);
+  display: flex;
+  justify-content: center;
+
   &-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
     gap: 30px;
-    background: linear-gradient($primary-color, $secondary-color);
+    width: 1200px;
 
     &__text {
       & > * {
@@ -54,8 +58,7 @@
     }
 
     &__image {
-      max-width: 50%;
-      height: 50%;
+      height: 100%;
 
       img {
         width: 100%;
