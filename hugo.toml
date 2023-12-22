@@ -1,0 +1,4 @@
+baseURL = 'https://www.hugojvb.com/'
+languageCode = 'en-us'
+title = 'HugoJVB | DEV'
+staticDir = ['static']
