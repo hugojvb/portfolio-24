@@ -1,10 +1,7 @@
 {{ define "main" }}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>{{ .Title }}</h1>
-                <p>{{ .Content }}</p>
-            </div>
-        </div>
+  <div class="flex justify-center py-10">
+    <div class="container flex flex-col gap-5">
+      <p>{{ .Content }}</p>
     </div>
+  </div>
 {{ end }}

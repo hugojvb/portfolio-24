@@ -9,7 +9,14 @@
 </head>
 <body class="font-body bg-light text-dark dark:text-light dark:bg-dark" onload="getDarkMode()">
   {{ partial "header.html" . }}
-  {{ block "main" . }}{{ end }}
+  <main class="flex flex-col justify-center items-center py-10">
+    <div class="container flex justify-between gap-5 h-screen">
+      <h1 class="text-3xl text-primary">Hey there, I'm a dev</h1>
+      <p>
+        I have been programming since 2021, I consider myself a Full Stack Dev with a frontend focus.
+      </p>
+    </div>
+  </main>
   {{ partial "footer.html" . }}
 </body>
 </html>

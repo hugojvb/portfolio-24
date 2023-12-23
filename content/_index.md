@@ -1,7 +1,0 @@
-+++
-title = 'Hugo B | DEV'
-+++
-
-# Test
-
-YOOOOOOOOOOOOOOOOOOOOOOOOOOOOO

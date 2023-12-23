@@ -12,9 +12,9 @@ module.exports = {
       }
     },
     fontFamily: {
-      brand: ['Fakedes Outline', 'sans-serif'],
-      body: ['Valkyrie', 'sans-serif'],
-      sans: ['sans-serif'],
+      brand: ['Fakedes Outline', 'sans serif'],
+      body: ['Valkyrie', 'sans serif'],
+      sans: ['sans serif'],
     },
   },
   content: ["./content/*.md", "./layouts/**/*.html"],

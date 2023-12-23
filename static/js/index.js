@@ -1,24 +1,26 @@
 function toggleDarkMode() {
-    const element = document.querySelector("html");
+  const element = document.querySelector("html");
+  element.classList.toggle("dark");
 
-    element.classList.toggle("dark");
-    if (!element.classList.contains("dark")) {
-      return;
-    }
-
-    localStorage.setItem("darkMode", "true");
+  const darkMode = element.classList.contains("dark") ? "true" : "false";
+  localStorage.setItem("darkMode", darkMode);
 }
 
 function getDarkMode() {
-  if (localStorage.getItem("darkMode") === "true") {
-    element.classList.add("dark");
+  const element = document.querySelector("html");
+  if (localStorage.getItem("darkMode") === "false") {
+    element.classList.remove("dark");
 
     return;
   }
 
-  if (!window.matchMedia || !window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  if (
+    localStorage.getItem("darkMode") ||
+    !window.matchMedia ||
+    !window.matchMedia("(prefers-color-scheme: light)").matches
+  ) {
     return;
   }
 
-  document.querySelector("html").classList.add("dark");
+  element.classList.remove("dark");
 }

@@ -1,18 +1,10 @@
-<footer class="flex justify-center dark:border-light border-t p-6">
+<footer class="bottom-0 flex justify-center border-t p-6 fixed w-full dark:border-hover">
   <div class="container">
     <div class="flex flex-col gap-5">
       <div class="flex justify-between">
         <div class="flex flex-col gap-2 justify-around">
-          <p>Built with:</p>
-          <a
-            href="https://www.gohugo.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Golang Hugo"
-            class="w-28"
-          >
-            <img src="/icons/hugoio.svg" alt="hugo.io" />
-          </a>
+          <p class="font-brand text-2xl text-icon">H U G O | B</p>
+          <p class="text-icon">Software Engineer</p>
         </div>
         <div class="flex gap-4 items-end">
           <a
@@ -20,12 +12,12 @@
             target="_blank"
             rel="noopener noreferrer"
             title="Github"
-            class="hover:-translate-y-px"
+            class="hover:-translate-y-1"
           >
             <img
               src="/icons/github.svg"
               alt="github"
-              class="w-6 h-6 fill-inherit"
+              class="w-6 h-6"
             />
           </a>
           <a
@@ -33,7 +25,7 @@
             target="_blank"
             rel="noopener noreferrer"
             title="Leetcode"
-            class="hover:-translate-y-px"
+            class="hover:-translate-y-1"
           >
             <img src="/icons/leetcode.svg" alt="leetcode" class="w-6 h-6" />
           </a>
@@ -42,14 +34,14 @@
             target="_blank"
             rel="noopener noreferrer"
             title="Linked In"
-            class="hover:-translate-y-px"
+            class="hover:-translate-y-1"
           >
             <img src="/icons/linkedin.svg" alt="linkedin" class="w-18 h-6" />
           </a>
         </div>
       </div>
-      <p class="text-center text-icon">
-        © {{ now.Format "2006" }} Hugo B. All rights reserved.
+      <p class="text-center text-icon font-sans">
+        © {{ now.Format "2006" }} All rights reserved.
       </p>
     </div>
   </div>
