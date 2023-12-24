@@ -1,25 +1,31 @@
 <header>
-  <header class="flex items-center justify-center p-5 lg:p-10 border-b-2 dark:border-hover h-24">
+  <header
+    class="flex items-center justify-center p-5 lg:p-10 border-b-2 dark:border-hover h-24"
+  >
     <nav class="container flex justify-between items-center">
       <a href="/" class="dark:text-light text-3xl font-brand">H U G O | B</a>
       <ul class="flex items-center gap-x-3 lg:gap-x-5">
         <li>
-          <a href="/" class="dark:text-light underline-animation"
+          <a
+            href="/"
+            class="underline-animation {{ if .IsHome }}text-primary pointer-events-none{{ end }}"
             >Home</a
           >
         </li>
         <li>
-          <a href="/career" class="dark:text-light underline-animation"
+          <a
+            href="/career"
+            class='underline-animation {{ if eq .RelPermalink "/career/" }}text-primary pointer-events-none{{ end }}'
             >Career</a
           >
         </li>
         <li>
-          <a href="/projects" class="dark:text-light underline-animation"
+          <a href="/projects" class='underline-animation {{ if eq .RelPermalink "/projects/" }}text-primary pointer-events-none{{ end }}'
             >Projects</a
           >
         </li>
         <li>
-          <a href="/certificates" class="dark:text-light underline-animation"
+          <a href="/certificates" class='underline-animation {{ if eq .RelPermalink "/certificates/" }}text-primary pointer-events-none{{ end }}'
             >Certificates</a
           >
         </li>
