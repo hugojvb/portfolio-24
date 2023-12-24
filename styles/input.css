@@ -33,7 +33,7 @@ button, a {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #ca8a04;
+  background-color: #FF2800;
   transform-origin: bottom;
   transition: transform 300ms ease-out;
 }

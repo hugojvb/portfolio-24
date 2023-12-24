@@ -4,9 +4,10 @@ module.exports = {
     extend: {
       colors: {
         light: '#F7F5FB',
-        dark: '#2E3844',
-        primary: '#F58A07',
-        secondary: '#084887',
+        dark: '#15171a',
+        primary: '#ADA897',
+        secondary: '#FF2800',
+        tertiary: '#C90A0A',
         hover: '#909CC244',
         icon: '#909CC2'
       }
