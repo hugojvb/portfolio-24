@@ -14,7 +14,8 @@ module.exports = {
     },
     fontFamily: {
       brand: ['Fakedes Outline', 'sans serif'],
-      body: ['Valkyrie', 'sans serif'],
+      valkyrie: ['Valkyrie', 'sans serif'],
+      calming: ['Calming', 'serif'],
       sans: ['sans serif'],
     },
   },

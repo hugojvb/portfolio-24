@@ -8,7 +8,7 @@
     <script src="/js/index.js" defer></script>
   </head>
   <body
-    class="font-body bg-light text-dark dark:text-light dark:bg-dark h-screen"
+    class="font-calming bg-light text-dark dark:text-light dark:bg-dark h-screen"
     onload="getDarkMode()"
   >
     {{ partial "header.html" . }}
@@ -16,8 +16,8 @@
       <div class="container flex justify-around items-center gap-5">
         <div class="text-primary flex flex-col gap-2">
           <h1 class="text-5xl">I am a Software Engineer</h1>
-          <h2 class="text-3xl font-sans">And I love to build Web Apps</h2>
-          <span class="flex gap-1 font-sans">
+          <h2 class="text-2xl">And I love to build Web Apps</h2>
+          <span class="flex gap-1">
             <a href="/career#js" class="border p-2 rounded-md dark:border-light border-hover bg-light text-dark hover:opacity-50">Javascript</a>
             <a href="/career#php"
               class="border p-2 rounded-md border-primary bg-primary dark:text-dark text-light hover:opacity-50"
@@ -26,7 +26,7 @@
             </a>
             <a href="/career#go" class="border p-2 rounded-md dark:border-hover border-dark bg-dark text-light hover:opacity-50">Go</a>
           </span>
-          <a href="/projects" class="text-lg underline-animation after:bg-icon hover:scale-105 text-icon mt-6 w-fit">What I'm working on right now</a>
+          <a href="/projects" class="flex text-md underline-animation [&>*:last-child]:hover:translate-x-1 after:bg-icon hover:scale-105 text-icon pt-6 w-fit italic">What I'm currently working on <img src="/icons/sharp-arrow-right.svg" class="w-3 inline mb-0.5 transitionable" /></a>
         </div>
         <div class="relative hover:scale-105 transitionable">
           <div class="-z-10 absolute top-0 right-0 w-3/4 h-3/4 bg-hover rounded-full"></div>

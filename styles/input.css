@@ -12,6 +12,11 @@
   src: url("/fonts/Valkyrie-Bold.woff2");
 }
 
+@font-face {
+  font-family: 'Calming';
+  src: url("/fonts/Calming.otf");
+}
+
 ::selection {
   background: #909CC244;
 }
