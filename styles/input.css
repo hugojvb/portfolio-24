@@ -16,7 +16,7 @@
   background: #909CC244;
 }
 
-button, a {
+button, a, .transitionable {
   transition: all 300ms ease;
 }
 

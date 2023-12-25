@@ -15,27 +15,27 @@
     <main class="flex flex-col justify-center items-center py-10 h-3/4">
       <div class="container flex justify-around items-center gap-5">
         <div class="text-primary flex flex-col gap-2">
-          <h1 class="text-5xl">Yes sir,</h1>
-          <h2 class="text-3xl">I develop Web Apps</h2>
-          <span class="flex gap-1">
-            <p class="border p-2 rounded-xl dark:border-light border-hover bg-light text-dark">Javascript</p>
-            <p
-              class="border p-2 rounded-xl border-primary bg-primary dark:text-dark text-light"
+          <h1 class="text-5xl">I am a Software Engineer</h1>
+          <h2 class="text-3xl font-sans">And I love to build Web Apps</h2>
+          <span class="flex gap-1 font-sans">
+            <a href="/career#js" class="border p-2 rounded-md dark:border-light border-hover bg-light text-dark hover:opacity-50">Javascript</a>
+            <a href="/career#php"
+              class="border p-2 rounded-md border-primary bg-primary dark:text-dark text-light hover:opacity-50"
             >
               PHP
-            </p>
-            <p class="border p-2 rounded-xl dark:border-hover border-dark bg-dark text-light">Golang</p>
+            </a>
+            <a href="/career#go" class="border p-2 rounded-md dark:border-hover border-dark bg-dark text-light hover:opacity-50">Go</a>
           </span>
+          <a href="/projects" class="text-lg underline-animation after:bg-icon hover:scale-105 text-icon mt-6 w-fit">What I'm working on right now</a>
         </div>
-        <div class="flex flex-col gap-3">
-          <div>
-            IMAGE OF SAID DEV
-          </div>
+        <div class="relative hover:scale-105 transitionable">
+          <div class="-z-10 absolute top-0 right-0 w-3/4 h-3/4 bg-hover rounded-full"></div>
+          <img src="/img/said_dev_color.png" alt="Hugo B" class="w-96 rounded-es rounded-full" />
           <p>
             {{ $start := "2020-12-01" | time }}
             {{ $diff := now.Sub $start }}
             {{ $years := div (div $diff 1e9) 31536000 }}
-            <div class="bg-tertiary text-light p-2 rounded-lg w-fit text-center">
+            <div class="absolute -bottom-3 left-3 bg-tertiary text-light p-2 rounded-md w-fit text-center">
               <h3 class="text-4xl">
                 {{ printf "%.0f+" $years }}
               </h3>
