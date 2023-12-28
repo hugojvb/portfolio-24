@@ -38,6 +38,41 @@ function displayDetailsBlock() {
   });
 }
 
+function toggleMenu() {
+  const header = document.getElementById("header");
+  const navbar = document.getElementById("navbar");
+  const menu = document.getElementById("menu");
+  const body = document.querySelector("body");
+  const burguerIcon = document.getElementById("burguer-icon");
+  const closeIcon = document.getElementById("close-icon");
+
+  const isActive = !menu.classList.contains("hidden");
+
+  if (!isActive) {
+    header.classList.add("fixed", "h-screen", "w-screen", "z-10");
+
+    menu.classList.add("text-2xl", "flex", "flex-col", "h-1/2", "justify-around", "items-center");
+
+    navbar.classList.add("flex-col", "h-full");
+
+    burguerIcon.classList.add("hidden");
+    closeIcon.classList.remove("hidden");
+    body.classList.add("overflow-hidden");
+  } else {
+    header.classList.remove("fixed", "h-full", "w-screen", "z-10");
+
+    menu.classList.remove("text-2xl", "flex", "flex-col", "justify-around", "items-center");
+
+    navbar.classList.remove("flex-col", "h-full");
+
+    burguerIcon.classList.remove("hidden");
+    closeIcon.classList.add("hidden");
+    body.classList.remove("overflow-hidden");
+  }
+
+  menu.classList.toggle("hidden");
+}
+
 (function onLoad() {
   window.onload = function () {
     getDarkMode();

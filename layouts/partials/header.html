@@ -1,9 +1,10 @@
 <header
-  class="sticky top-0 flex items-center justify-center p-5 lg:p-10 border-b-2 dark:border-hover h-24 bg-light dark:bg-dark z-50"
+  id="header"
+  class="sm:sticky flex flex-col sm:flex-row items-center justify-center p-5 lg:p-10 border-b-2 dark:border-hover sm:h-24 z-10 top-0 left-0 bg-light dark:bg-dark w-screen sm:w-auto sm:items-center "
 >
-  <nav class="container flex justify-between items-center">
+  <nav id="navbar" class="container flex justify-between items-center h-full">
     <a href="/" class="dark:text-light text-3xl font-brand">H U G O | B</a>
-    <ul class="sm:items-center sm:gap-x-3 lg:gap-x-5 hidden sm:flex">
+    <ul id="menu" class="sm:gap-x-3 lg:gap-x-5 hidden sm:flex z-20 sm:items-center">
       <li>
         <a
           href="/"
@@ -33,15 +34,16 @@
         >
       </li>
       <button
-        class="rounded-full w-6 cursor-pointer hover:bg-hover dark:hover:bg-hover"
+        class="rounded-full w-10 cursor-pointer hover:bg-hover dark:hover:bg-hover"
         onclick="toggleDarkMode()"
         title="Toggle dark mode"
       >
-        <img class="hidden dark:block" src="/icons/dark.svg" alt="dark mode" />
-        <img class="dark:hidden" src="/icons/light.svg" alt="light mode" />
+        <img class="hidden dark:block p-2" src="/icons/dark.svg" alt="dark mode" />
+        <img class="dark:hidden p-2" src="/icons/light.svg" alt="light mode" />
       </button>
     </ul>
     <button
+      id="burguer-icon"
       class="sm:hidden rounded-full w-10 cursor-pointer hover:bg-hover dark:hover:bg-hover"
       onclick="toggleMenu()"
       title="Toggle menu"
@@ -49,8 +51,16 @@
       <img
         class="sm:hidden p-2"
         src="/icons/burguer-menu.svg"
-        alt="burguer-menu"
+        alt="burguer-icon"
       />
+    </button>
+    <button
+      id="close-icon"
+      class="hidden rounded-full w-10 cursor-pointer hover:bg-hover dark:hover:bg-hover"
+      onclick="toggleMenu()"
+      title="Toggle menu"
+    >
+    X
     </button>
   </nav>
 </header>

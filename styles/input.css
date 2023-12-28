@@ -67,10 +67,14 @@ html.dark details[open] summary {
   font-weight: 900;
   font-size: 1.2rem;
   border: 1px solid #909CC244;
-  width: 100%;
+  width: 33%;
   font-family: Fakedes Outline;
   display: block;
   text-align: center;
+
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
 }
 
 .button:hover {
@@ -86,6 +90,7 @@ html.dark details[open] summary {
   border: 1px solid #909CC244;
   padding: 10px;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 h1 {
