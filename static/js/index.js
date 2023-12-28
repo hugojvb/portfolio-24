@@ -53,7 +53,7 @@ function toggleMenu() {
 
     menu.classList.add("text-2xl", "flex", "flex-col", "h-1/2", "justify-around", "items-center");
 
-    navbar.classList.add("flex-col", "h-full");
+    navbar.classList.add("flex-col");
 
     burguerIcon.classList.add("hidden");
     closeIcon.classList.remove("hidden");
@@ -63,7 +63,7 @@ function toggleMenu() {
 
     menu.classList.remove("text-2xl", "flex", "flex-col", "justify-around", "items-center");
 
-    navbar.classList.remove("flex-col", "h-full");
+    navbar.classList.remove("flex-col");
 
     burguerIcon.classList.remove("hidden");
     closeIcon.classList.add("hidden");
