@@ -61,6 +61,17 @@ html.dark details[open] summary {
   background: #15171A;
 }
 
+.text-block {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  letter-spacing: 0.05rem;
+  border: 1px solid #909CC244;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 h1 {
   font-size: 2.25rem;
   line-height: 1;
@@ -69,5 +80,10 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.25rem;
   line-height: 1;
 }

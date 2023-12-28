@@ -24,3 +24,23 @@ function getDarkMode() {
 
   element.classList.remove("dark");
 }
+
+function displayDetailsBlock() {
+  const detailsIds = ["js", "php", "go", "now", "default"];
+
+  detailsIds.forEach(function (id) {
+    if (window.location.hash === "#" + id || !window.location.hash && id === "default") {
+      var detailsElement = document.querySelector("details#" + id);
+      if (detailsElement) {
+        detailsElement.setAttribute("open", true);
+      }
+    }
+  });
+}
+
+(function onLoad() {
+  window.onload = function () {
+    getDarkMode();
+    displayDetailsBlock();
+  };
+})();
