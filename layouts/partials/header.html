@@ -1,47 +1,45 @@
-<header>
-  <header
-    class="flex items-center justify-center p-5 lg:p-10 border-b-2 dark:border-hover h-24"
-  >
-    <nav class="container flex justify-between items-center">
-      <a href="/" class="dark:text-light text-3xl font-brand">H U G O | B</a>
-      <ul class="flex items-center gap-x-3 lg:gap-x-5">
-        <li>
-          <a
-            href="/"
-            class="underline-animation {{ if .IsHome }}text-tertiary dark:text-secondary pointer-events-none{{ end }}"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            href="/career"
-            class='underline-animation {{ if eq .RelPermalink "/career/" }}text-tertiary dark:text-secondary pointer-events-none{{ end }}'
-            >Career</a
-          >
-        </li>
-        <li>
-          <a href="/projects" class='underline-animation {{ if eq .RelPermalink "/projects/" }}text-tertiary dark:text-secondary pointer-events-none{{ end }}'
-            >Projects</a
-          >
-        </li>
-        <li>
-          <a href="/certificates" class='underline-animation {{ if eq .RelPermalink "/certificates/" }}text-tertiary dark:text-secondary pointer-events-none{{ end }}'
-            >Certificates</a
-          >
-        </li>
-        <button
-          class="button rounded-full w-6 cursor-pointer hover:bg-hover dark:hover:bg-hover"
-          onclick="toggleDarkMode()"
-          title="Toggle dark mode"
+<header
+  class="sticky top-0 flex items-center justify-center p-5 lg:p-10 border-b-2 dark:border-hover h-24 bg-light dark:bg-dark z-50"
+>
+  <nav class="container flex justify-between items-center">
+    <a href="/" class="dark:text-light text-3xl font-brand">H U G O | B</a>
+    <ul class="flex items-center gap-x-3 lg:gap-x-5">
+      <li>
+        <a
+          href="/"
+          class="underline-animation {{ if .IsHome }}text-tertiary dark:text-secondary pointer-events-none{{ end }}"
+          >Home</a
         >
-          <img
-            class="hidden dark:block"
-            src="/icons/dark.svg"
-            alt="dark mode"
-          />
-          <img class="dark:hidden" src="/icons/light.svg" alt="light mode" />
-        </button>
-      </ul>
-    </nav>
-  </header>
+      </li>
+      <li>
+        <a
+          href="/career"
+          class='underline-animation {{ if eq .RelPermalink "/career/" }}text-tertiary dark:text-secondary pointer-events-none{{ end }}'
+          >Career</a
+        >
+      </li>
+      <li>
+        <a href="/projects" class='underline-animation {{ if eq .RelPermalink "/projects/" }}text-tertiary dark:text-secondary pointer-events-none{{ end }}'
+          >Projects</a
+        >
+      </li>
+      <li>
+        <a href="/certificates" class='underline-animation {{ if eq .RelPermalink "/certificates/" }}text-tertiary dark:text-secondary pointer-events-none{{ end }}'
+          >Certificates</a
+        >
+      </li>
+      <button
+        class="rounded-full w-6 cursor-pointer hover:bg-hover dark:hover:bg-hover"
+        onclick="toggleDarkMode()"
+        title="Toggle dark mode"
+      >
+        <img
+          class="hidden dark:block"
+          src="/icons/dark.svg"
+          alt="dark mode"
+        />
+        <img class="dark:hidden" src="/icons/light.svg" alt="light mode" />
+      </button>
+    </ul>
+  </nav>
 </header>

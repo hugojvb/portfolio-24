@@ -2,13 +2,13 @@
 title = 'Hugo B | Projects'
 +++
 
-# Projects
+# Projects {.text-primary}
 
 ---
 
 <details id="default">
   <summary class="cursor-pointer flex transitionable hover:opacity-50">
-    <h3 class="flex">EDP price simulator</h3>
+    <h3>EDP price simulator</h3>
   </summary>
   <div class="text-block">
     <p>
