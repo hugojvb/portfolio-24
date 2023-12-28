@@ -1,26 +1,40 @@
 +++
 title = 'Hugo B | Career'
 +++
-
 # Languages
 
-## Javascript
+---
 
-#### I worked with Javascript a lot especially in the frontend.
-#### I've been using mainly Next (React metaframework) for more recent apps and Ember for legacy. Also meddled with jQuery, Angular and vanilla Javascript in times.
-#### In the server side I worked with the Node runtime (Express framework) mainly on web services.
+<details id="js">
+<summary class="cursor-pointer flex transitionable">
+<h2>Javascript</h2>
+</summary>
+<p>
+I worked with Javascript a lot especially in the frontend.
+I've been using mainly Next (<em>React</em> metaframework) for more recent apps and Ember for legacy. Also meddled with jQuery, Angular and vanilla Javascript in times.
+</p>
+<p>
+In the server side I worked with the *Node* runtime (Express framework) mainly on web services.
+</p>
+</details>
 
 ## PHP
 
-#### About ~75% of all web servers use PHP and inevitably most legacy code that I've worked on was in PHP.
-#### Namely with the frameworks Symfony, Code Igniter and Slim, following OOP principles.
+About ~75% of all web servers use PHP and inevitably most legacy code that I've worked on was in PHP.
+
+Namely with the frameworks Symfony, Code Igniter and Slim, following OOP principles.
 
 ## Go
 
-#### Go is a language that I'm very interested on. In fact, this web site is built with Hugo, a Go framework to build SSG apps.
-#### In my experience, I worked with Go mainly for Web Services using Gin Gonic framework.
+Go is a language that I'm very interested on. In fact, this web site is built with Hugo, a Go framework to build SSG apps.
+
+In my experience, I worked with Go mainly for Web Services using Gin Gonic framework.
+
+&nbsp;
 
 # Timeline
+
+---
 
 ## Past
 

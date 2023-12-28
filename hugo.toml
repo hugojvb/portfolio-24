@@ -2,3 +2,6 @@ baseURL = 'https://www.hugojvb.com/'
 languageCode = 'en-us'
 title = 'Hugo B | Software Engineer'
 staticDir = ['static']
+[markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

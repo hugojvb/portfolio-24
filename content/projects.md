@@ -2,9 +2,9 @@
 title = 'Hugo B | Projects'
 +++
 
-# PROJECTS
+# Projects
 
-## Working currently
+## Currently Working {#now}
 
 I am working on a CLI tool that extracts translations and translates them through ChatGPT. Building it with Go.
 
