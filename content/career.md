@@ -101,6 +101,5 @@ title = 'Hugo B | Career'
 </details>
 
 &nbsp;
-&nbsp;
 
 <a class="button transitionable" href="https://www.canva.com/design/DADofmz62TM/Nkq7fcTJsAbX6705fLdW6A/view?utm_content=DADofmz62TM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1" target="blank" rel="noopener noreferrer">CV</a>
