@@ -49,9 +49,9 @@ function toggleMenu() {
   const isActive = !menu.classList.contains("hidden");
 
   if (!isActive) {
-    header.classList.add("fixed", "h-screen", "w-screen");
+    header.classList.add("fixed", "h-screen", "w-screen", "justify-between");
 
-    menu.classList.add("text-2xl", "flex", "flex-col", "h-1/2", "justify-around", "items-center");
+    menu.classList.add("text-2xl", "flex", "flex-col");
 
     navbar.classList.add("flex-col");
 
@@ -59,9 +59,9 @@ function toggleMenu() {
     closeIcon.classList.remove("hidden");
     body.classList.add("overflow-hidden");
   } else {
-    header.classList.remove("fixed", "h-screen", "w-screen");
+    header.classList.remove("fixed", "h-screen", "w-screen", "justify-between");
 
-    menu.classList.remove("text-2xl", "flex", "flex-col", "justify-around", "items-center");
+    menu.classList.remove("text-2xl", "flex", "flex-col");
 
     navbar.classList.remove("flex-col");
 
