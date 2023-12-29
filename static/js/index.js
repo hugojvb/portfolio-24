@@ -39,6 +39,8 @@ function displayDetailsBlock() {
 }
 
 function toggleMenu() {
+  window.scrollTo(0, 0);
+
   const header = document.getElementById("header");
   const navbar = document.getElementById("navbar");
   const menu = document.getElementById("menu");
