@@ -1,26 +1,41 @@
-<h1 class="text-primary">{{ .title }}</h1>
+<h1 class="text-primary">{{ i18n .title "test" }}</h1>
 <hr class="border-hover">
   {{ range .items }}
     <details id="{{ .id }}">
       <summary class="cursor-pointer flex transitionable hover:opacity-50">
-        <h3>{{ .title }}</h3>
+        <h3>{{ i18n .title }}</h3>
       </summary>
       <div class="ml-2 flex flex-col gap-2 tracking-wider border border-hover p-2 rounded-lg mb-2">
         {{ if .description1 }}
           <p>
-            {{ .description1 }}
+            {{ i18n .description1 }}
           </p>
         {{ end }}
         {{ if .description2 }}
           <p>
-            {{ .description2 }}
+            {{ i18n .description2 }}
+          </p>
+        {{ end }}
+        {{ if .description3 }}
+          <p>
+            {{ i18n .description3 }}
           </p>
         {{ end }}
         {{ if .image }}
           <div class="w-full flex">
             <img loading="lazy" class="sm:w-1/2" src="{{ .image }}" alt="{{ .title }}">
             <p class="hidden text-4xl sm:flex justify-center items-center p-10 text-center font-brand w-full sm:ml-2">
-              {{ .imageDescription }}
+              {{ i18n .imageDescription }}
+            </p>
+          </div>
+        {{ end}}
+        {{ if .video }}
+          <div class="w-full flex justify-center items-center mt-2">
+            <video class="sm:w-1/2 w-full" autoPlay muted loop controls>
+              <source data-src="{{ .video }}" type="video/mp4" />
+            </video>
+            <p class="hidden text-4xl sm:flex justify-center items-center p-10 text-center font-brand w-full sm:ml-2">
+              {{ i18n .videoDescription }}
             </p>
           </div>
         {{ end}}

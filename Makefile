@@ -1,5 +1,5 @@
 run:
-	hugo server --noHTTPCache --ignoreCache
+	hugo server --noHTTPCache --ignoreCache --buildDrafts
 .PHONY: run
 
 css:

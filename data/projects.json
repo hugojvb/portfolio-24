@@ -1,32 +1,35 @@
 [
   {
-    "title": "Past projects",
+    "title": "projects_past",
     "items": [
       {
         "id": "default",
-        "title": "EDP price simulator",
-        "description1": "Built a simulator to calculate the monthly electricity bill based on three different plans, each with different prices and specificities. Made with HTML, CSS and vanilla Javascript. Deployed with Netlify.",
-        "description2": "I really liked this project due to its simple and pragmatic approach."
+        "title":"projects_patients_title",
+        "description1":"projects_patients_description1",
+        "description2":"projects_patients_description2",
+        "video": "/vid/patients.mp4"
       },
       {
-        "title":"Patient Management",
-        "description1":"Built a management system for patients, with CRUD functionality of patients and observations/notes for each patient. Built with Spring Boot with Spring Data Jpa, Spring MVC, Spring Security, Thymeleaf, Bulma and PostgreSQL. Deployed with Heroku.",
-        "description2":"I liked this project due to the speed of the html rendering through the server and the seamless transition between frontend and backend thanks to old school SSR."
+        "title": "projects_edp_title",
+        "description1": "projects_edp_description1",
+        "description2": "projects_edp_description2",
+        "video": "/vid/edp.mp4"
       },
       {
-        "title":"Expense Tracker",
-        "description1":"Created a Full Stack Web App that allows any registered user to add and remove their expenses and spending goals and track them in a monthly basis. Built with the MERN stack and Material-UI. Deployed with Heroku (Serverless).",
-        "description2":"I kind of enjoyed working on this one, it was challenging but it felt more or less redundant state wise between frontend and backend."
+        "title":"projects_expense_title",
+        "description1":"projects_expense_description1",
+        "description2":"projects_expense_description2",
+        "video": "/vid/expense.mp4"
       }
     ]
   },
   {
-    "title": "Current projects",
+    "title": "projects_current",
     "items": [
       {
         "id": "now",
-        "title": "Translation CLI",
-        "description1": "Building a cli tool to automate translating keys from entire projects using Go and ChatGPT."
+        "title": "projects_translationscli_title",
+        "description1": "projects_translationscli_description1"
       }
     ]
   }

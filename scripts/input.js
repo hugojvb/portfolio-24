@@ -30,7 +30,7 @@ function displayDetailsBlock() {
 
   detailsIds.forEach(function (id) {
     if (window.location.hash === "#" + id || !window.location.hash && id === "default") {
-      var detailsElement = document.querySelector("details#" + id);
+      const detailsElement = document.querySelector("details#" + id);
       if (detailsElement) {
         detailsElement.setAttribute("open", true);
       }
@@ -74,6 +74,35 @@ function toggleMenu() {
 
   menu.classList.toggle("hidden");
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const lazyVideos = [].slice.call(document.querySelectorAll("video"));
+
+  if ("IntersectionObserver" in window) {
+    const lazyVideoObserver = new IntersectionObserver(function(entries, _) {
+      entries.forEach(function(video) {
+        if (video.isIntersecting) {
+          for (const sourceElement of video.target.children) {
+            const videoSource = sourceElement.getAttribute("data-src");
+
+            if (videoSource) {
+              sourceElement.src = videoSource;
+              sourceElement.removeAttribute("data-src");
+            }
+          }
+          setTimeout(() => {
+          video.target.load();
+          lazyVideoObserver.unobserve(video.target);
+        }, 50)
+        }
+      });
+    });
+
+    lazyVideos.forEach(function(lazyVideo) {
+      lazyVideoObserver.observe(lazyVideo);
+    });
+  }
+});
 
 (function onLoad() {
   window.onload = function () {
