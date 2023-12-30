@@ -1,7 +1,13 @@
 baseURL = 'https://www.hugojvb.com/'
 languageCode = 'en-us'
-title = 'Hugo B | Software Engineer'
 staticDir = ['static']
-[markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[languages]
+  [languages.en]
+    title = "Hugo B | Software Engineer"
+    weight = 1
+  [languages.es]
+    title = "Hugo B | Ingeniero de Software"
+    weight = 2
+  [language.pt]
+    title = "Hugo B | Engenheiro de Software"
+    weight = 3
