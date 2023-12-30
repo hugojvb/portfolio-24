@@ -1,9 +1,0 @@
-{{ $date1 := .Get "date1" | time.Parse "2006-01-02" }}
-{{ $date2 := .Get "date2" }}
-{{ if eq $date2 "now" }}
-  {{ $date2 = now }}
-{{ else }}
-  {{ $date2 = $date2 | time.Parse "2006-01-02" }}
-{{ end }}
-{{ $diff := sub $date1 $date2 }}
-{{ $diff | humanize.Duration }}

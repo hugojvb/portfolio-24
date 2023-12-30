@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="flex justify-center py-10">
     <div class="container flex flex-col gap-5 px-5">
-      {{ range .Site.Data.career }}
+      {{ range .Site.Data.projects }}
         <h1 class="text-primary">{{ .title }}</h1>
         <hr class="border-hover">
         {{ range .items }}
@@ -21,9 +21,6 @@
         {{ end }}
         <br>
       {{ end }}
-      <div class="flex justify-center">
-        <a class="button transitionable" href="https://www.canva.com/design/DADofmz62TM/Nkq7fcTJsAbX6705fLdW6A/view?utm_content=DADofmz62TM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1" target="blank" rel="noopener noreferrer">CV</a>
-      </div>
     </div>
   </div>
 {{ end }}
