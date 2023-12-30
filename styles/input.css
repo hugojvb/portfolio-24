@@ -53,44 +53,7 @@ button, a, .transitionable {
 }
 
 details[open] summary {
-  background: #F7F5FB;
   padding-bottom: 10px;
-}
-
-html.dark details[open] summary {
-  background: #15171A;
-}
-
-.button {
-  border-radius: 2px;
-  padding: 5px;
-  font-weight: 900;
-  font-size: 1.2rem;
-  border: 1px solid #909CC244;
-  width: 33%;
-  font-family: Fakedes Outline;
-  display: block;
-  text-align: center;
-
-  @media screen and (max-width: 640px) {
-    width: 100%;
-  }
-}
-
-.button:hover {
-  opacity: 70%;
-}
-
-.text-block {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  letter-spacing: 0.05rem;
-  border: 1px solid #909CC244;
-  padding: 10px;
-  border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 h1 {
