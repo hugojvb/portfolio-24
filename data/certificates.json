@@ -1,59 +1,72 @@
 [
   {
-    "title": "Online courses - 360 hours",
+    "title": "Online courses - 360 Hours",
     "items": [
       {
+        "id": "default",
         "title": "Docker and Kubernetes: The Complete Guide",
         "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-64d54668-eaa7-4805-9671-107572052b5f.jpg?v=1649706929000",
-        "imageDescription": "Docker and Kubernetes: The Complete Guide"
+        "imageDescription": "22 Hours"
       },
       {
         "title":"Spring & Hibernate for Beginners (includes Spring Boot)",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-7240a830-ba54-438b-9ce4-5b3497692213.jpg?v=1634411347000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-7240a830-ba54-438b-9ce4-5b3497692213.jpg?v=1634411347000",
+        "imageDescription": "42.5 Hours"
       },
       {
         "title":"Advanced React and Redux",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-a5b43c1c-b1a5-4db6-bebe-be022fb350d7.jpg?v=1630261091000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-a5b43c1c-b1a5-4db6-bebe-be022fb350d7.jpg?v=1630261091000",
+        "imageDescription": "21 Hours"
       },
       {
         "title": "Implement High Fidelity Designs with Material-UI and ReactJS",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-a5b291a2-80d1-4a2f-9672-99a0d960fae4.jpg?v=1627680413000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-a5b291a2-80d1-4a2f-9672-99a0d960fae4.jpg?v=1627680413000",
+        "imageDescription": "40.5 Hours"
       },
       {
         "title":"Nodejs: Advanced Concepts",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-e3df1811-664d-4fe1-b1be-31e7aac9332b.jpg?v=1622397467000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-e3df1811-664d-4fe1-b1be-31e7aac9332b.jpg?v=1622397467000",
+        "imageDescription": "16 Hours"
       },
       {
         "title":"Microfrontends with React: A complete developer's guide",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-939706bd-171a-4b09-856c-6d13a32e231d.jpg?v=1623284648000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-939706bd-171a-4b09-856c-6d13a32e231d.jpg?v=1623284648000",
+        "imageDescription": "9 Hours"
       },
       {
         "title":"React front to back",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-b1ea57cc-31a6-400e-8a26-16cdbfe24e63.jpg?v=1594145452000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-b1ea57cc-31a6-400e-8a26-16cdbfe24e63.jpg?v=1594145452000",
+        "imageDescription": "14 Hours"
       },
       {
         "title": "Node.js API Masterclass with Express and MongoDB",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-14dcab6c-9e47-435f-9895-5b9fe990d655.jpg?v=1594831041000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-14dcab6c-9e47-435f-9895-5b9fe990d655.jpg?v=1594831041000",
+        "imageDescription": "12 Hours"
       },
       {
         "title":"Modern Javascript from the beginning",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-0d3e9631-75a7-4f8b-843e-a2ad59866b2f.jpg?v=1592179412000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-0d3e9631-75a7-4f8b-843e-a2ad59866b2f.jpg?v=1592179412000",
+        "imageDescription": "21.5 Hours"
       },
       {
         "title": "Modern HTML & CSS from the beginning",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-688e1756-653e-4033-93cd-23eaf1cb081c.jpg?v=1591304615000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-688e1756-653e-4033-93cd-23eaf1cb081c.jpg?v=1591304615000",
+        "imageDescription": "21 Hours"
       },
       {
         "title":"Angular - The Complete Guide",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-1114ca43-1dd2-476d-b8e4-a93f6769f108.jpg?v=1604263694000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-1114ca43-1dd2-476d-b8e4-a93f6769f108.jpg?v=1604263694000",
+        "imageDescription": "33.5 Hours"
       },
       {
         "title": "Java Programming Masterclass for Software Developers",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-3a182850-7271-42f0-9289-5fb7ceb7954e.jpg?v=1598175416000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-3a182850-7271-42f0-9289-5fb7ceb7954e.jpg?v=1598175416000",
+        "imageDescription": "80.5 Hours"
       },
       {
         "title": "The Complete Web Developer",
-        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-32f95c24-b57c-448d-80ec-9458171ed3ee.jpg?v=1585645681000"
+        "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-32f95c24-b57c-448d-80ec-9458171ed3ee.jpg?v=1585645681000",
+        "imageDescription": "35 Hours"
       }
     ]
   }

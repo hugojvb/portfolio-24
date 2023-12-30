@@ -18,8 +18,8 @@
         {{ end }}
         {{ if .image }}
           <div class="w-full flex">
-            <img loading="lazy" class="w-1/2" src="{{ .image }}" alt="{{ .title }}">
-            <p class="text-xl flex justify-center items-center w-full">
+            <img loading="lazy" class="sm:w-1/2" src="{{ .image }}" alt="{{ .title }}">
+            <p class="hidden text-4xl sm:flex justify-center items-center p-10 text-center font-brand w-full sm:ml-2">
               {{ .imageDescription }}
             </p>
           </div>
