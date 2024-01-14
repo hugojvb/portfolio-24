@@ -1,6 +1,6 @@
 baseURL = 'https://www.hugojvb.com/'
+languageCode = 'en-us'
 staticDir = ['static']
-
 [languages]
   [languages.en]
     title = "Hugo B | Software Engineer"

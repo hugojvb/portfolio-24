@@ -1,46 +1,46 @@
 [
   {
-    "title": "career_timeline",
+    "title": "Timeline",
     "items": [
       {
         "id": "default",
-        "title": "career_past_title",
-        "description1": "career_past_description1",
-        "description2": "career_past_description2",
-        "description3": "career_past_description3"
+        "title": "Past",
+        "description1": "I have been working as a Full Stack Engineer since the beginning of my career.",
+        "description2": "As a Full Stack, my primary focus has been the frontend.",
+        "description3": "I have built apps used by millions of users and that is something that has made me grow a lot as an engineer."
       },
       {
-        "title":"career_present_title",
-        "description1":"career_present_description1",
-        "description2":"career_present_description2"
+        "title":"Present",
+        "description1":"I am building different projects and improving my skills through practice and research, mainly on technologies that I'm interested in, e.g. Go.",
+        "description2":"I am very interested in finding new technology stacks that allow me to build Full Stack apps with better performance, maintainability and developer experience."
       },
       {
-        "title":"career_future_title",
-        "description1":"career_future_description1",
-        "description2":"career_future_description2"
+        "title":"Future",
+        "description1":"I expect to continue being a proficient engineer, making the best use of the tools that come up with new AI advancements.",
+        "description2":"I aim to be a 10x engineer."
       }
     ]
   },
   {
-    "title": "career_skills",
+    "title": "Skills",
     "items": [
       {
         "id":"js",
-        "title":"career_javascript_title",
-        "description1":"career_javascript_description1",
-        "description2":"career_javascript_description2"
+        "title":"Javascript",
+        "description1":"I worked with Javascript a lot especially in the frontend.",
+        "description2":"I've been using mainly Next (*React* metaframework) for more recent apps and Ember for legacy. Also meddled with jQuery, Angular and vanilla Javascript in times."
       },
       {
         "id":"php",
-        "title":"career_php_title",
-        "description1":"career_php_description1",
-        "description2":"career_php_description2"
+        "title":"PHP",
+        "description1":"About 75% of all web servers use PHP and inevitably most legacy code that I\"ve worked on was in PHP.",
+        "description2":"Namely with the frameworks Symfony, Code Igniter and Slim, following OOP principles."
       },
       {
         "id":"go",
-        "title":"career_go_title",
-        "description1":"career_go_description1",
-        "description2":"career_go_description2"
+        "title":"Go",
+        "description1":"Go is a language that I'm very interested on. In fact, this web site is built with Hugo, a Go framework to build SSG apps.",
+        "description2":"In my experience, I worked with Go mainly for Web Services using Gin Gonic framework."
       }
     ]
   }
