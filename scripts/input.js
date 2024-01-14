@@ -30,7 +30,7 @@ function displayDetailsBlock() {
 
   detailsIds.forEach(function (id) {
     if (window.location.hash === "#" + id || !window.location.hash && id === "default") {
-      var detailsElement = document.querySelector("details#" + id);
+      const detailsElement = document.querySelector("details#" + id);
       if (detailsElement) {
         detailsElement.setAttribute("open", true);
       }

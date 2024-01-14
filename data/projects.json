@@ -4,24 +4,24 @@
     "items": [
       {
         "id": "default",
-        "title": "EDP price simulator",
-        "description1": "Built a simulator to calculate the monthly electricity bill based on three different plans, each with different prices and specificities. Made with HTML, CSS and vanilla Javascript. Deployed with Netlify.",
-        "description2": "I really liked this project due to its simple and pragmatic approach."
+        "title":"Patient Management",
+        "video": "/vid/patients.mp4",
+        "videoDescription": "Built a management system for patients, with CRUD functionality of patients and observations/notes for each patient. Built with Spring Boot with Spring Data Jpa, Spring MVC, Spring Security, Thymeleaf, Bulma and PostgreSQL. Deployed with Heroku."
       },
       {
-        "title":"Patient Management",
-        "description1":"Built a management system for patients, with CRUD functionality of patients and observations/notes for each patient. Built with Spring Boot with Spring Data Jpa, Spring MVC, Spring Security, Thymeleaf, Bulma and PostgreSQL. Deployed with Heroku.",
-        "description2":"I liked this project due to the speed of the html rendering through the server and the seamless transition between frontend and backend thanks to old school SSR."
+        "title": "EDP price simulator",
+        "video": "/vid/edp.mp4",
+        "videoDescription": "Built a simulator to calculate the monthly electricity bill based on three different plans, each with different prices and specificities. Made with HTML, CSS and vanilla Javascript. Deployed with Netlify."
       },
       {
         "title":"Expense Tracker",
-        "description1":"Created a Full Stack Web App that allows any registered user to add and remove their expenses and spending goals and track them in a monthly basis. Built with the MERN stack and Material-UI. Deployed with Heroku (Serverless).",
-        "description2":"I kind of enjoyed working on this one, it was challenging but it felt more or less redundant state wise between frontend and backend."
+        "video": "/vid/expense.mp4",
+        "videoDescription": "Created a Full Stack Web App that allows any registered user to add and remove their expenses and spending goals and track them in a monthly basis. Built with the MERN stack and Material-UI. Deployed with Heroku (Serverless)."
       }
     ]
   },
   {
-    "title": "Current projects",
+    "title": "Current project",
     "items": [
       {
         "id": "now",
