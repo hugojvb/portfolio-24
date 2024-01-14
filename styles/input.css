@@ -56,18 +56,15 @@ details[open] summary {
   padding-bottom: 10px;
 }
 
-h1 {
-  font-size: 2.25rem;
-  line-height: 3rem;
-  font-weight: 800;
-}
+@layer base {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+    font-weight: 800;
+  }
 
-h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-  line-height: 1;
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
 }

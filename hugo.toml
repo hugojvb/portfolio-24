@@ -2,3 +2,6 @@ baseURL = 'https://www.hugojvb.com/'
 languageCode = 'en-us'
 staticDir = ['static']
 title = 'Hugo B | Software Engineer'
+
+[params]
+description = 'Hugo B is a Software Engineer with 3+ years of experience. Has done work in Full Stack development, the strenght being the frontend.'

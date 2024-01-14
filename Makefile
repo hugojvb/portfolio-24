@@ -7,5 +7,5 @@ css:
 .PHONY: css
 
 js:
-	npx esbuild ./scripts/input.js --outfile=./static/js/index.js --minify
+	npx esbuild ./scripts/input.js --outfile=./static/js/index.js --minify --watch
 .PHONY: js
