@@ -1,3 +1,7 @@
+all:
+	make css & make js & make run & wait
+.PHONY: all
+
 run:
 	hugo server --noHTTPCache --ignoreCache
 .PHONY: run
